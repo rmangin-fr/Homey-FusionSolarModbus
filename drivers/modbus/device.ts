@@ -7,7 +7,7 @@ class LunaDevice extends Homey.Device {
    */
   async onInit() {
     this.log("LunaDevice has been initialized");
-    const modbus = new LunaModbus("172.30.27.38");
+    const modbus = new LunaModbus("172.30.27.38"); // reyntjensw internal inverter IP
     // modbus.connect();
   }
 
